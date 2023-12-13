@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Mangement System</title>
+   
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="Css/bootstrap.min.css"/> 
+    <!--fontawesome  -->
+    <link rel="stylesheet" href="Css/all.min.css"/>
+    <!-- main css -->
+    <link rel="stylesheet" href="./Css/index.css"/>
+
+
+</head>
+<body class="bg-dark">
+<main>
+<div class="container">
+<div class="title text-info text-center p-3 pb-2">
+  <h2>CRUD</h2>  
+  <H3 class="">Product Mangement System</H3>
+</div>    
+<section class=" p-3  m-auto text-info">
+<div class="inputs-form mb-2">
+    <label for="productName" class="fw-bolde mb-2">Product Name:</label>
+    <input type="text" class="form-control" id="productName" placeholder="Product Name" >
+    <p class="alert alert-danger d-none" id="messgeName">Name is-invalid</p>
+</div>
+
+<div class="inputs-form mb-2">
+    <label for="productPrice" class="fw-bolde mb-2">Product Price:</label>
+    <input type="number" class="form-control" id="productPrice" placeholder="Product Price">
+    <p class="alert alert-danger d-none"id="messgePrice">Price is-invalid</p>
+
+</div>
+
+<div class="inputs-form mb-2">
+    <label for="productCategory" class="fw-bolde mb-2">product Category:</label>
+    <input type="text" class="form-control" id="productCategory" placeholder="Product Category" >
+    <p class="alert alert-danger d-none"id="messgeCaregory">Category is-invalid</p>
+
+</div>
+
+<div class="inputs-form mb-2">
+    <label for="productDescription"class="fw-bolde mb-2">Product Description:</label>
+    <textarea class="form-control" id="productDescription" placeholder="Product Description"></textarea>
+    <p class="alert alert-danger d-none"id="messgeDescription">Description is-invalid</p>
+
+ </div>
+
+ <button class="btn btn-outline-info w-100" id="addBtn">Add Product</button>
+
+ <button class="btn btn-outline-info w-100 d-none"  id="updateBtn" >Update Product</button>
+
+</section>
+    
+<input id="searchInput" type="text" class="form-control my-3 w-75 mx-auto" placeholder="Search...">
+
+<section class=" ">
+<table class="table">
+  <thead>
+    <tr>
+      <th>Index</th>    
+      <th>Name</th>  
+      <th>Price</th>  
+      <th>Category</th>  
+      <th>Description</th>  
+      <th>Action</th>  
+
+    </tr>
+  </thead>  
+  <tbody id="tableBody">
+
+  </tbody>
+ </table>   
+</section>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</main>
+<!-- bootstrap js -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- jquary -->
+<script src="./js/code.jquery.com_jquery-3.7.0.min.js"></script>
+<!-- main js -->
+ <script src="./js/index.js"></script> 
+</body>
+</html>

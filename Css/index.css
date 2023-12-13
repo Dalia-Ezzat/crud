@@ -1,0 +1,40 @@
+textarea {
+    resize: none;
+    height: 120px;
+ }
+
+ .table>:not(caption)>*>* {
+    background-color: transparent !important;
+    color:white !important;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
