@@ -51,7 +51,11 @@ function addProduct(){
 
   console.log(productContainer);
 
- }
+ }else {
+    messgePrice.classList.remove('d-none');
+    messgeCaregory.classList.remove('d-none');
+    messgeDescription.classList.remove('d-none');
+}
 
 }
 
